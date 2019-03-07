@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</head>
+<body>
+        <div id="wrapper">
+                <table align='center' cellspacing=2 cellpadding=5 id="data_table" border=1>
+                <tr class="table-success">
+                <th>Author</th>
+                <th>Book Name</th>
+                <th>Date</th>
+                <th>....</th>
+                </tr>
+                
+                <tr id="row1">
+                <td id="name_row1">Arthur Conan Doyle</td>
+                <td id="country_row1">Sherlock Holmes</td>
+                <td id="age_row1">01/01/1978</td>
+                <td>
+                <input type="button" id="edit_button1" value="Edit" class="edit" onclick="edit_row('1')">
+                <input type="button" id="save_button1" value="Save" class="save" onclick="save_row('1')">
+                <!-- <input type="button" value="Delete" class="delete" onclick="delete_row('1')">  -->
+                </td>
+                </tr>
+                
+                <tr id="row2">
+                <td id="name_row2">P G Wodehouse</td>
+                <td id="country_row2">Wuthering Heights</td>
+                <td id="age_row2">26/03/1899</td>
+                <td>
+                <input type="button" id="edit_button2" value="Edit" class="edit" onclick="edit_row('2')">
+                <input type="button" id="save_button2" value="Save" class="save" onclick="save_row('2')">
+                <!-- <input type="button" value="Delete" class="delete" onclick="delete_row('2')"> -->
+                </td>
+                </tr>
+                
+                <tr id="row3">
+                <td id="name_row3">Paulo Coehlo</td>
+                <td id="country_row3">The Alchemist</td>
+                <td id="age_row3">19/07/1979</td>
+                <td>
+                <input type="button" id="edit_button3" value="Edit" class="edit" onclick="edit_row('3')">
+                <input type="button" id="save_button3" value="Save" class="save" onclick="save_row('3')">
+                <!-- <input type="button" value="Delete" class="delete" onclick="delete_row('3')"> -->
+                </td>
+                </tr>
+                
+                
+                <tr>
+                <td><input type="text" id="new_author"></td>
+                <td><input type="text" id="new_book"></td>
+                <td><input type="text" id="new_date"></td>
+                <td><input type="button" class="add" onclick="add_row();" value="Add Row"></td>
+                </tr>
+                
+                </table>
+                </div>
+                
+    <script src="test2.js"></script>
+</body>
+</html>
+
+
+
+
+
+   
+
+    

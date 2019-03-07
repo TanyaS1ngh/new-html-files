@@ -1,0 +1,38 @@
+bootstrap
+1. fluid layout
+2. fixed layout
+uses grid system
+getbootstrap.com
+to download the bootstrap ,.these support installing bootstrap
+npm,bwr,yarn
+container size ----xtra small if the screen width is less than 576px
+  ---smAll(sm) if minimum device width is 576 and  less than 768px.
+  ---md : >768 and <900
+  ----large(lg) if the size of screen >900 and <1200
+  ---xl : if the screen width is greater than  equal to 1200
+  
+  
+  for the input controls we will use form-control class
+  
+  form-label,form-control-button,dreopdown,textbox
+
+  
+  offset-md-3 : it will leave 2 label margins then will type
+  
+  for buttons we use class
+  btn btn-primary-blue,danger-red,success-green,danger,info
+  
+  
+  form layout---vertical form layout,horizontal form layout,inline layout
+  
+  
+  carousel- floating photos`
+  
+  modal popups
+
+
+fontawesome.com ------gliphicons
+
+
+https://bootstrapious.com/p/bootstrap-sidebar    for toggling sidebar 
+

@@ -1,0 +1,56 @@
+should write in last before closing of the body tag bec the function may not know about the buttons functionalities
+
+var keyword
+typeof  for getting the type of variable
+var keyword is global
+any variable that you create with keyword var that will be inside window object
+any variable defined within function,will not be able to access outside.
+window objects are common for all the files
+document is part of window object
+
+few selectors to locate object
+1. document.getElementById()
+2. document.getElementsByClassName()
+3. document.getElementsByTagName
+
+no class in javascript but there is object in javascript ,that is why it is called object based programming not obj. oriented programming.
+
+
+guidelines
+1. always recommended to start the first name of the file with "use strict" ----- will give errors of defining varibles of global
+2. if u are using global variables then u (should) define in starting of the program.--ex- var a,b,c
+
+**********css---- box-sizing:border-box   
+tabindex
+
+
+javascript link--------     javascriptjackal
+                             javascript sexy
+                             mdn javascript
+                             johnpapa
+                             scotch.io
+      risingstack.io
+      
+variable hoisting is done by javascript. means all variables with assignment will be declared in starting of program.
+
+
+variable vs property
+properties are attached to context whereas variables are attached are attached to context.
+if a function 'a' defined with new inside function b then function a can acces b's var but b cannot acces properties of a;
+
+
+closure ---- concept in which inner function will remember 
+
+properties of an object are always key-value pair
+
+
+
+longitude -77.696784  latitude-12.981225      https://www.latlong.net/
+
+
+querySelector and querySelectorAll
+event bubbling
+
+
+
+
