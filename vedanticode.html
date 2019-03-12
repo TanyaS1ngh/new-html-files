@@ -56,6 +56,22 @@
                 }
             }
         }
+        var userList;
+        function isAuthorisedPromise(user){
+            return new Promise(function (resolve,reject){
+                setTimeout(function(){
+                    resolve(userList.indexOf(user)>=0)
+                },10);
+            
+            // try{
+            //     resolve(userList.indexOf(user)>=0)
+            // }
+            // catch(ex){
+            //     reject('User List is empty')
+            // }
+            });
+
+        }
         // This is what a simple unit test looks like:
         test('This sample test should always pass!', function (assert) {
             var result = 1 + 1;
@@ -95,7 +111,7 @@
         });
         
     </script>
-    
+    <script src="testpromise.js"></script>
   </body>
 </html>
 
